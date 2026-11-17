@@ -1,0 +1,1 @@
+import{n as e}from"./theme.COmMTg6S.js";var t=document.getElementById(`theme-toggle`);t instanceof HTMLButtonElement&&e(t);var n=document.querySelectorAll(`[data-reveal]`),r=new IntersectionObserver(e=>{for(let t of e)t.isIntersecting&&(t.target.classList.add(`is-in`),r.unobserve(t.target))},{rootMargin:`0px 0px -8% 0px`});n.forEach(e=>r.observe(e));
